@@ -3,3 +3,30 @@ mernlearning ==> user database as well as password..
 
 username: mernlearning
 password: mernlearning
+
+
+
+============================================================
+About of Redux:
+
+Redux capabilities:
+All Action towards are backend.
+
+initialise redux in a starting file like index.js file who is the entry point of an project,
+import provider
+
+Provider =>
+provider goes to keep track of that store,  which is the  gloabal state and that allow us to access , that store from anywhere inside the app.
+
+import createStore, applyMiddleware, compose from redux
+-----------------------------------------------------------------------------
+Reducers =>
+Reducers are functions, that accept state and actions
+example: reducer =(state , action) =>
+
+and in reducers state equal to something,
+
+Action Creator=> are function that return actions,
+action are objects that have type and payload
+
+redux stunk=> we deal with async logics, 
